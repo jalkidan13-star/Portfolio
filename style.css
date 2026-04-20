@@ -1,0 +1,160 @@
+   body{
+        background-color: aqua;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+header{
+    background-color: gray;
+    padding:1px
+    font-size 30px;
+    text-align: center;
+    
+
+}
+ table{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 50px
+    transition: transform 0.3s
+max-width: 800px
+position: relative
+top: 100px
+left: 50px
+}
+table,th,tr,td{
+
+    text-align: center;
+
+ padding : 10px;
+ justify-content: center;
+ margin: 600px;
+ margin-top: 30px;
+ margin-bottom: 4px;
+ padding-bottom: 0px;
+ padding-left: 10px;
+ padding-right: 1px;
+}
+
+
+
+
+home{
+    background-color: chocolate;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 30vh;
+    color: blue;
+}
+#about{
+    background-color: darkkhaki;
+    padding: 40px;
+    text-align: center;
+    color: blueviolet;
+}
+#about h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    border-bottom:2px solid gray;
+display: inline-block;
+padding-bottom: 10px;
+}
+#about p{
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+header nav,ul{
+    list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+gap: 50px;
+justify-content: center;
+align-items: center;
+background-color: darkolivegreen;
+}
+nav,ul,li{
+    padding: 15;
+    margin: 15;
+}
+nav,ul il a{
+    color: blue(19,17,17);
+    text-decoration: none;
+    font-weight: bold;
+    margin: auto;
+}
+.project{
+border: 2px solid yellowgreen;
+padding: 20px;
+margin: 20px;
+background-color: burlywood;
+box-shadow: 0 4px 8px rgb(0,0,0,0,1);
+border-radius: 10px;
+transition: transform 0.3s;
+max-width: 800px;
+ margin: auto;
+ margin-bottom: 20px;
+}
+
+.project.project:hover{
+transform: scale(1.05);
+}
+ul li {
+    background-color: cornsilk;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(0,0,0,0,1);
+}
+
+form{
+    display: grid;
+    gap: 1rem;
+    
+}
+label{
+padding: 60px;  
+margin: 20px; 
+    border-radius: 33px;
+    margin: auto;
+    margin-bottom:30px;
+    text-align: center;
+    
+}
+form,input{
+    border: 0px solid #f4f4f4;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 1rem;
+    margin-bottom: 30px;
+max-height:800px;
+max-width: 800px;
+display: block;
+width: 100%;
+margin: 
+
+}
+textarea{
+    border-radius: 1rem;
+    padding: 1rem 1.7rem;
+    margin: 20px;
+    width: 100%;
+
+
+}
+button{
+    display: grid;
+    margin: center;
+    padding: 0.5rem 0.4rem 0.3rem;
+    width: 50px;
+    border-radius: 10px;
+    justify-self: center;
+    background-color: yellow;
+}
