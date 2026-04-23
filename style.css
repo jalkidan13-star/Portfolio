@@ -1,160 +1,171 @@
-   body{
-        background-color: aqua;
-        padding: 0;
-        margin: 0;
-        text-align: center;
-    }
-header{
-    background-color: gray;
-    padding:1px
-    font-size 30px;
+ ody{
+    background-color: darkcyan;
     text-align: center;
-    
+    padding: 0px;
+    margin: 0px;
 
-}
- table{
-    background-color: blueviolet;
-    text-align: center;
-    padding: 50px
-    transition: transform 0.3s
-max-width: 800px
+  
+    transition: transform 0.3s;
 position: relative
-top: 100px
-left: 50px
+top 100px;
+left: 50px;
 }
 table,th,tr,td{
-
     text-align: center;
-
  padding : 10px;
  justify-content: center;
- margin: 600px;
+ margin: 0px;
  margin-top: 30px;
  margin-bottom: 4px;
  padding-bottom: 0px;
- padding-left: 10px;
- padding-right: 1px;
-}
+ padding-right: 10px;}
 
+header{
+    background-color: darkgray;
+    padding:1px
+    font-size 30px;
+    text-align :center;
+    tableight: 1px;}
 
-
-
-home{
-    background-color: chocolate;
+#home{
+    background-color: darkgray;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     min-height: 30vh;
-    color: blue;
+    font-size: 1.0em;
+    color: black;
 }
 #about{
-    background-color: darkkhaki;
-    padding: 40px;
+    background-color: darkcyan;
+    padding: 30px;
     text-align: center;
-    color: blueviolet;
+    color:black;
 }
 #about h2{
     font-size: 2.5rem;
     margin-bottom: 20px;
     text-transform: capitalize;
-    border-bottom:2px solid gray;
+    border-bottom:2px solid black;
 display: inline-block;
 padding-bottom: 10px;
 }
 #about p{
+    background-color: darkgray;
     max-width: 800px;
     margin: 0 auto;
-    line-height: 1.6;
+    line-height: 1.6rem;
     font-size: 1.1rem;
 }
 
-header nav,ul{
+
+header  nav,ul{
     list-style: none;
-padding: 0;
-margin: 0;
-display: flex;
-gap: 50px;
-justify-content: center;
+    padding:0px;
+    margin: 0px;
+    display: flex;
+gap: 20px;
 align-items: center;
-background-color: darkolivegreen;
+    background-color:gray;
 }
+
+
 nav,ul,li{
-    padding: 15;
-    margin: 15;
+    padding:10px ;
+    margin: 10px;
+ background-color: cornflowerblue;
+ justify-content: center;
 }
-nav,ul il a{
+nav,ul,li a:hover{
+ color: blanchedalmond;
+}
+
+nav,ul li a{
     color: blue(19,17,17);
     text-decoration: none;
-    font-weight: bold;
+font-weight: bold;
     margin: auto;
+    
 }
-.project{
-border: 2px solid yellowgreen;
+.project
+{
+border: 2px solid cadetblue;
 padding: 20px;
 margin: 20px;
 background-color: burlywood;
 box-shadow: 0 4px 8px rgb(0,0,0,0,1);
 border-radius: 10px;
 transition: transform 0.3s;
-max-width: 800px;
+text-align: center;
+ max-width: 1000%;
  margin: auto;
  margin-bottom: 20px;
 }
-
-.project.project:hover{
-transform: scale(1.05);
-}
-ul li {
-    background-color: cornsilk;
-    padding: 10px;
-    margin: 5px 0;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgb(0,0,0,0,1);
+.project.project:haver{
+ transform: scale(1.05);
 }
 
+ skill {
+   background-color: black;
+    text-align:center;
+    padding: 60px 10px;
+    gap: 50px;
+    justify-content: center;
+ }
+  ul{
+    display: flex;
+    list-style: none;
+    padding: 20px;
+ }
+ li{
+    margin: 10px;
+    gap: 30px;
+ }
+ .home-text{
+    color: black(158, 117, 117);
+    font-size: 1.5rem;
+ }
+#contact{
+ background-color: darkkhaki;
+ text-align:center;}
+
+#contact {
+    background-color: darkcyan;
+    text-align: center;
+    padding: 2rem; 
+}
 form{
-    display: grid;
-    gap: 1rem;
-    
+ display:grid;
+gap:1rem;
 }
 label{
-padding: 60px;  
-margin: 20px; 
-    border-radius: 33px;
-    margin: auto;
-    margin-bottom:30px;
-    text-align: center;
-    
+ display:grid;
 }
 form,input{
-    border: 0px solid #f4f4f4;
-    padding: 40px;
-    margin: 20px;
-    border-radius: 1rem;
-    margin-bottom: 30px;
-max-height:800px;
-max-width: 800px;
-display: block;
-width: 100%;
-margin: 
-
+ border: 0.px solid #f4f4f4;
+  padding:0.5rem;
+margin: 1.5px;
+border-radius: 1rem;
 }
 textarea{
-    border-radius: 1rem;
-    padding: 1rem 1.7rem;
-    margin: 20px;
-    width: 100%;
-
-
+ border-radius:1rem;
+padding:0.95rem 1.7rem;
 }
 button{
-    display: grid;
-    margin: center;
-    padding: 0.5rem 0.4rem 0.3rem;
-    width: 50px;
-    border-radius: 10px;
-    justify-self: center;
-    background-color: yellow;
+display:grid;
+margin:center;
+padding:0.5rem 0.4rem 0.3rem;
+font-weight:70px;
+border-radius:996px;
+justify-self: center;
+ background:#24a81f;
+font-size: 1rem;
+
 }
+footer{
+background: #343a3b;
+padding: 6px;
+margin: 5px;
+}          
